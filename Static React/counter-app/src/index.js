@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
-import Food from './Food';
-import Home from './Home';
+import Food from './views/Food';
+import Home from './views/Home';
 import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from '@chakra-ui/react'
-import Recommendations from "./Recommendations";
+import Recommendations from "./views/Recommendations";
 
 export default function App() {
   return (
